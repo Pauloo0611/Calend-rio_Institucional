@@ -1,0 +1,167 @@
+html {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+body {
+    height: 100%;
+    width: 100%;
+    background-image: url("../../imagens/background.jpg");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+.container {
+    width: 1500px;
+    height: 600px;
+    margin-top: 30px;
+    background: rgba( 35, 81, 209, 0.50 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+img {
+    height: 60px;
+}
+#nav-datas{
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+#menu {
+    background: rgba( 35, 81, 209, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    width: 100%;
+}
+#menu img {
+    margin-left: 20px;
+}
+.navbar .navbar-brand {
+    text-align: center;
+}
+#offcanvasNavbar {
+    background: rgba( 35, 81, 209, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.offcanvas-title {
+    color: #fff;
+    margin: auto;
+    text-transform: uppercase;
+}
+.offcanvas-body {
+    color: #fff;
+    text-align: center;
+}
+.offcanvas-body ul {
+    color: #fff;
+}
+#menu-transparente {
+    background: rgba( 35, 81, 209, 0.25 ); !important;
+}
+#menu-transparente .dropdown-item {
+    color: #ffffff; !important;
+    text-align: center;
+}
+#painel {
+    border: medium solid black;
+    margin-top: 7%;
+    width: 1500px;
+    height: 500px;
+}
+#painel h1 {
+    margin-top: 200px;
+    text-align: center;
+}
+#card-boas-vindas {
+    color: #fff;
+    margin-top: 15%;
+    text-align: center;
+}
+#card-boas-vindas h6 {
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+#card-boas-vindas .aluno {
+    color: #fff;!important;
+    background: rgba(28, 69, 182, 0.33); !important;
+    border: thin solid #0c497a;
+    border-radius: 5px;
+    padding: 8px 45px;
+    text-decoration: none;
+}
+#button-aluno-inicio {
+    margin-top: -1.8%;
+}
+#mes-atual button.btn.btn-primary {
+    color: #fff;
+    background: transparent;
+    border: none;
+}
+button.btn.btn-primary {
+    color: rgba(193, 193, 193, 0.8);
+    background: transparent;
+    border: none;
+}
+#ano {
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+#calendario {
+    color: #ffffff;
+    text-shadow: 0.1em 0.1em 0.2em #1425be;
+}
+#btn-next img {
+    width: 30px;
+    height: 30px;
+}
+#btn-prev img {
+    width: 30px;
+    height: 30px;
+}
+#btn-tarefas {
+    margin-top: 10px;
+    border: none;
+    color: white;!important;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+#btn-inicio {
+    color: #fff;!important;
+    font-size: 1rem;!important;
+    text-transform: uppercase;
+}
+button.navbar-toggler{
+    color: #0c497a;!important;
+    border-color: #0c497a;!important;
+    margin-right: 20px;
+}
+#exampleModal .modal-content {
+    color: #fff;
+    background: rgba( 35, 81, 209, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+#staticBackdrop .modal-content{
+    color: #fff;
+    background: rgba( 35, 81, 209, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+#staticBackdrop .modal-content button {
+    color: #fff;!important;
+    border: thin solid #0c497a;
+}
